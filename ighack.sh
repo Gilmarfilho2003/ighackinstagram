@@ -4,20 +4,6 @@
 #Goes to real author
 #colours
 #####3#3#
-check(){
-if wget --spider https://raw.githubusercontent.com/noob-hackers/ighack/master/update.v3.2 2>/dev/null; then
-cd $HOME/ighack/core
-echo "ig" > update.txt
-else
-echo
-fi
-}
-check
-option(){
-if [ -f "$HOME/ighack/core/update.txt" ];then
-cd $HOME/ighack/core
-bash update.sh
-else
 echo " "
 fi
 }
