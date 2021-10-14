@@ -34,5 +34,5 @@ instagram-py --username $usrnm --password-list $inspass
 echo
 cd $HOME
 fi
-cd $HOME/ighack
+cd $HOME/ighackinstagram
 bash ighack.sh
