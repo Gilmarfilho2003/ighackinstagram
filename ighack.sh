@@ -5,7 +5,7 @@
 #colours
 #####3#3#
 echo " "
-fi
+
 }
 option
 check1(){
