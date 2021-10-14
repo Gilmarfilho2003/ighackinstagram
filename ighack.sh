@@ -4,19 +4,7 @@
 #Goes to real author
 #colours
 #####3#3#
-echo " "
 
-echo "igg" > patch.txt
-else
-echo
-fi
-}
-check1
-option1(){
-if [ -f "$HOME/ighack/core/patch.txt" ];then
-cd $HOME/ighack/core
-bash patch.sh
-else
 echo " "
 fi
 }
