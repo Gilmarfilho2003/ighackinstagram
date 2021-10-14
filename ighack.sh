@@ -2,11 +2,9 @@
 #script By Noob Hackers
 #The real creator of core files is not us so the credits 
 #Goes to real author
-#colours
-#####3#3#
+
 
 echo " "
-fi
 }
 red='\033[1;31m'
 rset='\033[0m'
