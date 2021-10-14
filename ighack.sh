@@ -4,36 +4,6 @@
 #Goes to real author
 
 
-echo " "
-}
-red='\033[1;31m'
-rset='\033[0m'
-grn='\033[1;32m'
-ylo='\033[1;33m'
-blue='\033[1;34m'
-cyan='\033[1;36m'
-pink='\033[1;35m'
-#coding section starts :)
-banner(){
-clear
-if [ -f "$HOME/ighack/setup" ];
-then
-cd $HOME/ighack
-bash setup
-else
-echo
-fi
-###############
-torser="tor"
-if pgrep -x "$torser" >/dev/null
-then
-echo 
-else
-echo -e "\e[91mTOR\e[96m IS NOT RUNNING, PLEASE START TOR IN A NEW SESSION
-          BY TYPING\e[92m tor\e[96m AND START IGHACK AGAIN\e[0m "
-exit 1
-fi
-vid
 ##############3
 echo -e '\e[91m
     ██╗ ██████╗      \e[92m ██╗  ██╗ █████╗  ██████╗██╗  ██╗\e[91m
