@@ -304,5 +304,4 @@ baner1
 menu1
 fi
 }
-banner
 menu1
