@@ -219,7 +219,7 @@ baner1
 menu1
 elif [ "$p" = "z" ];
 then
-cd $HOM/ighack
+cd $HOME/ighack
 rm noob.noob
 banner
 menu1
