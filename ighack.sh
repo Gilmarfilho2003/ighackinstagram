@@ -61,7 +61,7 @@ if [[ $option == 1 || $option == 01 ]]; then
 cd $HOME/ighackinstagram/main
 bash auto.sh
 elif [[ $option == 2 || $option == 02 ]]; then
-cd $HOME/ighack/ighackinstagram
+cd $HOME/ighackinstagram
 bash manual.sh
 elif [[ $option == 3 || $option == 03 ]]; then
 abot
